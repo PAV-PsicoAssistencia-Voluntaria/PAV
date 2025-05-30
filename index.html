@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAV - Global Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemain.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="" type="image/png" alt="icone">
+</head>
+
+<body>
+    <header>
+        <div class="header" id="home">
+            <nav class="navbar">
+                <img class="logo" src="" alt="logo" id="nav_logo">
+                <button class="hamburger"></button>
+
+                <ul class="nav_list">
+                    <li class="nav-item"> <a href="#home">Home</a></li>
+                    <li class="nav-item"> <a href="#solucao">Solução</a></li>
+                    <li class="nav-item"> <a href="#quemsomos">Quem Somos</a></li>
+                    <li class="nav-item"> <a href="#faq">FAQ</a></li>
+                    <li class="nav-item"> <a href="#contato">Contato</a></li>
+                </ul>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="s1">
+            <div class="solucao" id="solucao">
+                <div class="solucaotexto">
+                    <article>
+
+
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="s2">
+            <h1>Quem somos</h1>
+
+            <div class="quemsomos" id="quemsomos">
+                <div class="perfil">
+                    <img class="fotoperfil" src="img/perfilPedro.png" alt="Foto do Pedro">
+                    <p>Pedro Mariutti</p>
+                    <p>RM 75999</p>
+                    <p><a href="https://www.linkedin.com/in/pedromariutti/" target="_blank"><img class="iconeperfil"
+                                src="img/linkedin.png" alt="icone linkedin"> Linkedin </a></p>
+                    <p><a href="https://github.com/pedromariutti" target="_blank"><img class="iconeperfil"
+                                src="img/github.png" alt="icone github"> Github </a></p>
+                </div>
+
+                <div class="perfil">
+                    <img class="fotoperfil" src="img/perfilHenrique.png" alt="foto do henrique">
+                    <p>Henrique Orellana</p>
+                    <p>RM 565608</p>
+                    <p><a href="https://www.linkedin.com/in/henriqueorellana/" target="_blank"><img class="iconeperfil"
+                                src="img/linkedin.png" alt="icone linkedin"> Linkedin </a></p>
+                    <p><a href="https://github.com/Guren156" target="_blank"><img class="iconeperfil"
+                                src="img/github.png" alt="icone github"> Github </a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="s3">
+            <h1>FAQ</h1>
+            <div class="container-faq" id="faq">
+
+                <div class="item-faq">
+                    <div class="pergunta-faq"><b>P: </b></div>
+                    <div class="resposta-faq">
+                        <h5><b>R: </b></h5>
+                    </div>
+                </div>
+
+                <div class="item-faq">
+                    <div class="pergunta-faq"><b>P: </b> </div>
+                    <div class="resposta-faq">
+                        <h5><b>R: </b> </h5>
+                    </div>
+                </div>
+
+                <div class="item-faq">
+                    <div class="pergunta-faq"><b>P: </b></div>
+                    <div class="resposta-faq">
+                        <h5><b>R: </b> </h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s4">
+            <div class="form-container" id="contato">
+                <form method="POST">
+                    <h3>Contato</h3>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Ex: Seu Nome">
+                    <span class="error-message" id="nome-error"></span>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Ex: email@email.com">
+                    <span class="error-message" id="email-error"></span>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Ex: 11 987654321" required>
+                    <span class="error-message" id="telefone-error"></span>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."
+                        required></textarea>
+                    <span class="error-message" id="mensagem-error"></span>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 PAV. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Pedro Mariutti & Henrique Orellana</p>
+                <p><a href="#home" class="footer-link">Voltar ao topo</a></p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
