@@ -44,18 +44,16 @@ article b{
     font-weight: 700;
 }
 
-.solucaowhats{
+.solucaofigma{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 15px;
 }
 
-.solucaowhats img{
+.solucaofigma img{
     height: auto;
     max-width: 100%;
-    border-radius: 5px;
-    border: solid 2px #7a55ba;
     margin-bottom: 20px;
 }
 
