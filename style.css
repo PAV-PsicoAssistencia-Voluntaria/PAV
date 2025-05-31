@@ -73,6 +73,8 @@ header{
 @media (max-width: 768px) {
     .hamburger{
         display: block;
+        position: relative;
+        z-index: 1100;
     }
 
     .nav_list{
